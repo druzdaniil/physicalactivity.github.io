@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <link rel="stylesheet" href="signIn.css">
+    <link rel="stylesheet" href="signup.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Увійти</title>
+    <title>Зареєструватися</title>
 </head>
 <body>
+    
     <img src="src/logo.gif" class="logo-left">
     <img src="src/logo.gif" class="logo-right">
-
 
     <div class="main_div">
         <div class="window">  
             <div class="wrapper">    
                 <form action="">
-                     <h1>Увійти</h1>
+                     <h1>Зареєструватися</h1>
                 
                 <div class="input-box">
-                    <input type="text" id="login" name="login" placeholder="Логін" required>
+                    <input type="text" id="name" name="name" placeholder="імя" required>
 
                     <i class='bx bx-user'></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="text"  id="gmail" name="gmail" placeholder="Пошта" required>
+                    <i class='bx bxl-gmail'></i>
+                </div>
+
+                
+                <div class="input-box">
+                    <input type="text"  id="login" name="login" placeholder="Логін" required>
+                    <i class='bx bxs-log-in' ></i>
                 </div>
 
                 <div class="input-box">
@@ -27,24 +38,21 @@
                     <i class='bx bx-lock-alt' ></i>
                 </div>
 
-                <div class="remember">
-                    <label for=""> <input type="checkbox">Запам'ятати мене</label>
-                </div>
 
+
+
+                <div class="remember">
+                    <a href="signIn.html">Вже є аккаунт?</a>
+                </div>
                 <div class="buttons">
-                    <button class="buttonIN" type="submit">Увійти</button>
+                    <button class="buttonIN" type="submit">Зарегеструватися</button>
                     <button class="buttonOUT" type="submit">Скасувати</button>
                 </div>
 
-                <div class="register-link">
-                    <p > Ще не зарегестровані? <a href="signup.html">Зареєструватися</p>
-                </div>
-
             </form>
-        </div>   
+        </div>
     </div>
 </div>
 
 </body>
 </html>
-
