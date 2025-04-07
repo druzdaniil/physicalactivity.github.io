@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-	const form = document.querySelector('form');
+	const btnIN = document.querySelector('.buttonIN');
 	const loginInput = document.getElementById('login');
 	const passwordInput = document.getElementById('password');
  
-	form.addEventListener('submit', function (e) {
+	btnIN.addEventListener('click', function () {
 	  const login = loginInput.value.trim();
 	  const password = passwordInput.value.trim();
  
