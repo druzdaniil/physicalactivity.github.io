@@ -29,7 +29,6 @@ btnStart.addEventListener('click', () => {
 	}, 1000);
 
 	setTimeout(() => {
-		location.replace('../stat_page/stat_page.html'); /*Треба буде змінити шлях до файлу, 
-		якщо у фінальному варіанті розташуування файлів між собою буде іншим*/
+		location.replace('stat_page.html');
 	}, (secInput + minInput*60 + hourInput*3600)*1000 + 1000)
 });

@@ -28,6 +28,25 @@
 	width: 250px;
 }
 
+.countdown-link {
+	display: block;
+	width: 160px;
+	margin: 0 auto;
+	padding: 8px 12px;
+	background-color: #A1D9EF;
+	color: #065471;
+	text-decoration: none;
+	border-radius: 8px;
+	font-weight: bold;
+	text-align: center;
+	transition: all 0.3s ease;
+
+	&:hover {
+		 background-color: #ffffff;
+		 transform: scale(1.05);
+	}
+}
+
 .calendar-container {
 	text-align: center;
 	margin-top: 20px;

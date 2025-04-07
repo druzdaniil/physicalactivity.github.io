@@ -6,6 +6,10 @@ main {
 	top: clamp(125px,calc(171*100%/1000),180px);
 	overflow-x: hidden;
 	z-index: 0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
 
 	&::-webkit-scrollbar {
 		width: 15px;
