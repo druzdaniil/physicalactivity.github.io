@@ -1,9 +1,44 @@
 main {
-	width: 100%;
-	text-align: center;
-	padding: 20px;
+	width: 95%;
+	height: calc(790*100%/1000);
+	overflow: scroll;
 	position: absolute;
 	top: clamp(125px,calc(171*100%/1000),180px);
+	overflow-x: hidden;
+	z-index: 0;
+
+	&::-webkit-scrollbar {
+		width: 15px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: #D9D9D9;
+		border-radius: 10px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background-color: transparent;
+	}
+
+	&::-webkit-scrollbar-button:single-button:decrement {
+		background-color: transparent;
+		border-left: 7px solid transparent;
+  		border-right: 7px solid transparent;
+  		border-bottom: 10px solid #0A91AB;
+		border-radius: 7px;
+ 		height: 10px;
+		cursor: pointer;
+	}
+
+	&::-webkit-scrollbar-button:single-button:increment {
+		background-color: transparent;
+		border-left: 7px solid transparent;
+  		border-right: 7px solid transparent;
+  		border-top: 10px solid #0A91AB;
+		border-radius: 7px;
+ 		height: 10px;
+		cursor: pointer;
+	}
 }
 
 h1 {
@@ -41,7 +76,7 @@ h1 {
 	color: white;
 }
 
-.timer-link {
+.countdown-link {
 	display: inline-block;
 	margin-top: 10px;
 	padding: 5px 15px;
@@ -51,6 +86,11 @@ h1 {
 	border-radius: 10px;
 	font-weight: bold;
 	transition: all 0.3s ease;
+
+	&:hover {
+		background-color: #ffffff;
+		transform: scale(1.05);
+  }
 }
 
 .stats h3.box, .stats p.box {
