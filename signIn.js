@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	  const login = loginInput.value.trim();
 	  const password = passwordInput.value.trim();
  
-	  if (login === '' || password === '') {
-		alert('Будь ласка, заповніть усі поля');
-	  } else {
+	  if (login !== '' && password !== '') {
 		location.assign('main_page.html')
 	  }
 	});

@@ -11,9 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	  const login = loginInput.value.trim();
 	  const password = passwordInput.value.trim();
  
-	  if (name === ''|| gmail === '' || login === '' || password === '') {
-		alert('Будь ласка, заповніть усі поля');
-	  } else {
+	  if (name !== '' && gmail !== '' && login !== '' && password !== '') {
 		location.assign('main_page.html')
 	  }
 	});
