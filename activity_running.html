@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="activity_running.css">
+    <title>Біг</title>
+</head>
+<body>
+    <header>
+		<div class="container">
+			<div class="logo-section">
+				<img src="src/logo.svg" alt="Логотип" id="logo">
+			</div>
+			<nav>
+				<ul class="nav-links">
+					<li>
+						<a href="">Розклад</a>
+					</li>
+					<li class="menu">
+						<button class="menu-button"></button>
+						<div class="dropdown">
+							<div><img class="running_icon" src="running_icon.webp"/><a href="activity_running.html">Біг</a></div>
+							<div><img class="yoga_icon" src="yoga_icon.webp"/><a href="activity_yoga.html">Йога</a></div>
+							<div><img class="swin_icon" src="swimming_icon.webp"/><a href="activity_swimming.html">Плавання</a></div>
+							<div><img class="walking_icon" src="walking_icon.webp"/><a href="">Ходьба</a></div>
+							<div><img class="bicycle_icon" src="bicycle_icon.webp"/><a href="">Велоспорт</a></div>
+							<div><img class="tennis_icon" src="tennis_icon.webp"/><a href="">Тенніс</a></div>
+						</div>
+					</li>
+					<li>
+						<a href="stat_page.html">Статистика</a>
+					</li>
+					<li>
+						<a href="exercises_page.html">Відеовправи</a>
+					</li>
+					<li>
+						<a href="">
+							<span id="profile-text">Профіль</span>
+							<img src="src/profile_example.png" id="profile-icon" alt="Профіль">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="burger">
+				<span></span>
+			</div>
+		</div>
+	</header>
+    
+    <main>
+        <h1>Біг</h1>
+        
+        <div class="rating">
+            <span>⭐</span>
+            <span>⭐</span>
+            <span>⭐</span>
+            <span>☆</span>
+            <span>☆</span>
+        </div>
+        
+        <section class="stats">
+            <div class="timer">
+                <div class="box"> <h3>Таймер</h3> <p class="time_number">00,00 h</p> </div>
+            </div>
+            <div class="distance">
+                <div class="box"> <h3>Відстань</h3> <p>0,00 km</p> </div>
+            </div>
+            <div class="calories">
+                <div class="box"> <h3>Калорії</h3> <p class="calories_number">00,00 kkal</p> </div>
+            </div>
+            <div class="hearth">
+                <div class="box"> <h3>Серцебиття</h3> <p>60 уд/хв</p> </div>
+            </div>
+    
+
+
+
+            
+            <h3 class="box">Цитата на день</h3>
+            <p class="box">Насолода має приносити не тільки результат, а і сам процес</p>
+ 
+
+
+            <div class="calendar-grid">
+                <h3 class="box">Календар</h3>
+            <div class="calendar-grid">
+                <!-- Здесь будут даты -->
+            </div>
+        </section>
+        
+        <section class="map">
+            <h3>Маршрут</h3>
+            <img src="src/map.png" alt="Маршрут">
+        </section>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>

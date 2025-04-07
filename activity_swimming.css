@@ -1,0 +1,208 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.time{
+    background-color: #065471;
+    border-radius: 15px;
+    width: 325px;
+    height: 210px;
+    position: relative;
+    top: 170px;
+    left: 161px;
+    color: white;
+}
+
+.timer{
+    font-size: 27px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.line{
+    width: 270px;
+    border-bottom: 2px solid #A1D9EF;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+.today_time{
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.time_number{
+    font-size: 50px;
+    padding-left: 85px;
+    margin-top: 25px;
+}
+
+.calendar{
+    background-color: #065471;
+    border-radius: 15px;
+    width: 278px;
+    height: 300px;
+    position: relative;
+    top: 185px;
+    left: 185px;
+    color: white;
+}
+
+.name_calendar{
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.line1{
+    width: 245px;
+    border-bottom: 2px solid #A1D9EF;
+    margin-left: 18px;
+    margin-top: -20px;
+}
+
+.month{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.border{
+    border: 2px solid #A1D9EF;
+    height: 170px;
+    border-radius: 15px;
+    width: 250px;
+    position: relative;
+    left: 12.5px;
+    bottom: 12.5px;
+}
+
+.numbers{
+    position: relative;
+    bottom: 160px;
+    left: 30px;
+}
+
+.number1{
+   color: white;
+   font-size: 20px;
+   position: relative;
+   left: 5px;
+   border: 1px solid #0A91AB;
+   border-radius: 30px;
+}
+
+.number{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+}
+
+.calories{
+    background-color: #065471;
+    border-radius: 15px;
+    width: 325px;
+    height: 210px;
+    position: relative;
+    left: 520px;
+    bottom: 160px;
+    color: white;
+}
+
+.name_calories{
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 27px;
+    padding-bottom: 5px;
+}
+
+.line2{
+    width: 270px;
+    border-bottom: 2px solid #A1D9EF;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+.today_calories{
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.calories_number{
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 25px;
+}
+
+.distance{
+    background-color: #065471;
+    border-radius: 15px;
+    width: 325px;
+    height: 210px;
+    position: relative;
+    bottom: 340px;
+    left: 903px;
+    color: white;
+}
+
+.name_distance{
+    font-size: 27px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.line3{
+    width: 270px;
+    border-bottom: 2px solid #A1D9EF;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+.today_distance{
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.dictance_number{
+    font-size: 50px;
+    padding-left: 85px;
+    margin-top: 25px;
+}
+
+.text_of_the_day{
+    background-color: #065471;
+    border-radius: 15px;
+    width: 330px;
+    height: 150px;
+    position: relative;
+    bottom: 760px;
+    left: 900px;
+    color: white;
+}
+
+.name_text{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.text{
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.line4{
+    width: 270px;
+    border-bottom: 2px solid #A1D9EF;
+    margin-left: 25px;
+    margin-top: -20px;
+}
