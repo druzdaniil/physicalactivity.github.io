@@ -2,6 +2,8 @@ main {
 	width: 100%;
 	text-align: center;
 	padding: 20px;
+	position: absolute;
+	top: clamp(125px,calc(171*100%/1000),180px);
 }
 
 h1 {

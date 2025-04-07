@@ -1,18 +1,26 @@
+main {
+    position: absolute;
+	top: clamp(125px,calc(171*100%/1000),180px);
+}
+
 h1{
     text-align: center;
     font-size: 30px;
     color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .time{
     background-color: #065471;
     border-radius: 15px;
     width: 325px;
-    height: 210px;
+    height: 240px;
     position: relative;
     top: 170px;
     left: 161px;
     color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .timer{
@@ -38,6 +46,26 @@ h1{
     font-size: 50px;
     padding-left: 85px;
     margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.timer-link {
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+    padding: 8px 12px;
+    background-color: #A1D9EF;
+    color: #065471;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.timer-link:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
 }
 
 .calendar{
@@ -49,6 +77,7 @@ h1{
     top: 185px;
     left: 185px;
     color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .name_calendar{
@@ -105,6 +134,16 @@ h1{
     border-radius: 30px;
 }
 
+table {
+    border-spacing: 6px;
+}
+
+td {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+
 .calories{
     background-color: #065471;
     border-radius: 15px;
@@ -114,6 +153,7 @@ h1{
     left: 520px;
     bottom: 160px;
     color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .name_calories{
@@ -150,6 +190,7 @@ h1{
     bottom: 340px;
     left: 903px;
     color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .name_distance{
@@ -186,6 +227,7 @@ h1{
     bottom: 760px;
     left: 900px;
     color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .name_text{
