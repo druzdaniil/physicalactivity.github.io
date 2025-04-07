@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="activity_walking.css">
+        <title>Ходьба</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo-section">
+                    <img src="src/logo.svg" alt="Логотип" id="logo">
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="">Розклад</a>
+                        </li>
+                        <li class="menu">
+                            <button class="menu-button"></button>
+                            <div class="dropdown">
+                                <div><img class="running_icon" src="running_icon.webp"/><a href="activity_running.html">Біг</a></div>
+                                <div><img class="yoga_icon" src="yoga_icon.webp"/><a href="activity_yoga.html">Йога</a></div>
+                                <div><img class="swin_icon" src="swimming_icon.webp"/><a href="activity_swimming.html">Плавання</a></div>
+                                <div><img class="walking_icon" src="walking_icon.webp"/><a href="activity_walking.html">Ходьба</a></div>
+                                <div><img class="bicycle_icon" src="bicycle_icon.webp"/><a href="">Велоспорт</a></div>
+                                <div><img class="tennis_icon" src="tennis_icon.webp"/><a href="">Тенніс</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="stat_page.html">Статистика</a>
+                        </li>
+                        <li>
+                            <a href="exercises_page.html">Відеовправи</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span id="profile-text">Профіль</span>
+                                <img src="src/profile_example.png" id="profile-icon" alt="Профіль">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="time">
+                <p class="timer">Таймер</p>
+                <div class="line"></div>
+                <p class="today_time">Сьогодні</p>
+                <p class="time_number">00,00 h</p>
+            </div>
+            <div class="calendar">
+                <p class="name_calendar">Календар</p>
+                <div class="line1"></div>
+                <p class="month"> < Березень > </p>
+                <div class="border"></div>
+                <div class="numbers">
+                    <table>
+                        <tr>
+                            <td class="number1">1</td>
+                            <td class="number1">2</td>
+                            <td class="number1">3</td>
+                            <td class="number1">4</td>
+                            <td class="number1">5</td>
+                            <td class="number1">6</td>
+                            <td class="number1">7</td>
+                        </tr>
+                        <tr>
+                            <td class="number1">8</td>
+                            <td class="number1">9</td>
+                            <td class="number1">10</td>
+                            <td class="number1">11</td>
+                            <td class="number1">12</td>
+                            <td class="number">13</td>
+                            <td class="number">14</td>
+                        </tr>
+                        <tr>
+                            <td class="number">15</td>
+                            <td class="number">16</td>
+                            <td class="number">17</td>
+                            <td class="number">18</td>
+                            <td class="number">19</td>
+                            <td class="number">20</td>
+                            <td class="number">21</td>
+                        </tr>
+                        <tr>
+                            <td class="number">22</td>
+                            <td class="number">23</td>
+                            <td class="number">24</td>
+                            <td class="number">25</td>
+                            <td class="number">26</td>
+                            <td class="number">27</td>
+                            <td class="number">28</td>
+                        </tr>
+                        <tr>
+                            <td class="number">29</td>
+                            <td class="number">30</td>
+                            <td class="number">31</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="calories">
+                <p class="name_calories">Калорії</p>
+                <div class="line2"></div>
+                <p class="today_calories">Сьогодні</p>
+                <p class="calories_number">00,00 kkal</p>
+            </div>
+            <div class="distance">
+                <p class="name_distance">Відстань</p>
+                <div class="line3"></div>
+                <p class="today_distance">Сьогодні</p>
+                <p class="dictance_number">0,00 km</p>
+            </div>
+            <div class="text_of_the_day">
+                <p class="name_text">Цитата на день</p>
+                <div class="line4"></div>
+                <p class="text">Насолоду має приносити не <br>тільки результат, а й сам <br>процес</p>
+            </div>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
