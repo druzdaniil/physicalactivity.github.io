@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	font-family: "IBM Plex Sans", sans-serif;
+	background: linear-gradient(135deg, #194261, #0C2233);
+	background-attachment: fixed;
+  	font-optical-sizing: auto;
+  	font-weight: 500;
+	font-size: 14px;
+  	font-style: normal;
+	width: 100%;
+	min-height: 100vh;
+	color: #ffffff;
+}
+
+.time-setter {
+	display: none;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 5vh;
+}
+
+.time-setter > div {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	gap: 5vw;
+	width: 100%;
+	height: 35%;
+}
+
+.input-section {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 3px;
+
+	> input {
+		width: 20vw;
+		text-align: center;
+		padding-left: 15px;
+		height: 8vw;
+		font-size: 10em;
+		border-radius: 8px;
+		border: 0px;
+		background-color: #065471;
+		color: #ffffff;
+
+		&:hover {
+			background-color: #097e95;
+			transition: background-color 0.2s;
+		}
+	}
+
+	small {
+		font-size: 2.5em;
+	}
+}
+
+.btn-start {
+	width: 35vw;
+	text-align: center;
+	height: 6.5vw;
+	font-size: 4em;
+	border-radius: 8px;
+	border: 0px;
+	background-color: #034a64;
+	color: #ffffff;
+	font-weight: 600;
+	padding: 10px;
+
+	&:hover {
+		background-color: #FFC045;
+		color: #097e95;
+		transition: background-color 0.2s;
+	}
+}
+
+.countdown {
+	font-size: 200px;
+	font-weight: 600;
+}
+
+@media (max-width: 1950px) {
+	.input-section > input {
+		font-size: 7.5em;
+	}
+
+	.btn-start {
+		font-size: 3em;
+	}
+}
+
+@media (max-width: 1450px) {
+	.input-section > input {
+		font-size: 5em;
+	}
+
+	.input-section small {
+		font-size: 1.5em;
+	}
+
+	.btn-start {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 1050px) {
+	.input-section > input {
+		font-size: 3.5em;
+	}
+
+	.input-section small {
+		font-size: 1em;
+	}
+
+	.btn-start {
+		font-size: 1.5em;
+	}
+
+	.countdown {
+		font-size: 150px;
+	}
+}
+
+@media (max-width: 750px) {
+	.input-section > input {
+		font-size: 2.7em;
+	}
+
+	.input-section small {
+		font-size: 0.8em;
+	}
+
+	.btn-start {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 426px) {
+	.time-setter > div {
+		flex-flow: column nowrap;
+	}
+	
+	.input-section {
+		flex-flow: column nowrap;
+	
+		> input {
+			width: 85px;
+			height: 45px;
+		}
+	
+		small {
+			font-size: 0.8em;
+		}
+	}
+	
+	.btn-start {
+		width: 145px;
+		height: 55px;
+		font-size: 1.1em;
+	}
+
+	.countdown {
+		font-size: 70px;
+	}
+}

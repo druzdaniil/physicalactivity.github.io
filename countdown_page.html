@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="countdown_page.css">
+	<title>Зворотній відлік</title>
+</head>
+<body>
+	<div>
+		<div class="time-setter">
+			<div>
+				<div class="input-section">
+					<input type="number" class="hours" value="00" min="0" max="23" oninput="this.value = this.value.slice(0, 2)"></input>
+					<small>Години</small>
+				</div>
+				<div class="input-section">
+					<input type="number" class="minutes" value="30" min="0" max="59" oninput="this.value = this.value.slice(0, 2)"></input>
+					<small>Хвилини</small>
+				</div>
+				<div class="input-section">
+					<input type="number" class="seconds" value="00" min="0" max="59" oninput="this.value = this.value.slice(0, 2)"></input>
+					<small>Секунди</small>
+				</div>
+			</div>
+			<button class="btn-start">Розпочати тренування</button>
+		</div>
+		<div class="countdown"></div>
+	</div>
+	<script src="countdown_page.js"></script>
+</body>
+</html>
