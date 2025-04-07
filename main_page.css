@@ -1,0 +1,15 @@
+.main-container {
+	padding: 20px;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.images img {
+	width: 45%;
+	border-radius: 10px;
+}
