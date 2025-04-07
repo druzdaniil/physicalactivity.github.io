@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stat_page.css">
+	<title>Статистика</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo-section">
+				<img src="src/logo.svg" alt="Логотип" id="logo">
+			</div>
+			<nav>
+				<ul class="nav-links">
+					<li>
+						<a href="">Розклад</a>
+					</li>
+					<li class="menu">
+						<button class="menu-button"></button>
+						<div class="dropdown">
+							<div><img class="running_icon" src="running_icon.webp"/><a href="Біг.html">Біг</a></div>
+							<div><img class="yoga_icon" src="yoga_icon.webp"/><a href="Йога.html">Йога</a></div>
+							<div><img class="swin_icon" src="swimming_icon.webp"/><a href="Плавання.html">Плавання</a></div>
+							<div><img class="walking_icon" src="walking_icon.webp"/><a href="Ходьба.html">Ходьба</a></div>
+							<div><img class="bicycle_icon" src="bicycle_icon.webp"/><a href="Велоспорт.html">Велоспорт</a></div>
+							<div><img class="tennis_icon" src="tennis_icon.webp"/><a href="Тенніс.html">Тенніс</a></div>
+						</div>
+					</li>
+					<li>
+					<li>
+						<a href="">Статистика</a>
+					</li>
+					<li>
+						<a href="">Відеовправи</a>
+					</li>
+					<li>
+						<a href="">
+							<span id="profile-text">Профіль</span>
+							<img src="src/profile_example.png" id="profile-icon" alt="Профіль">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="burger">
+				<span></span>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="main-container">
+			<div class="table-container">
+				<table>
+						<tr>
+							<th>Вид активності</th>
+							<th>Час за тиждень</th>
+							<th>Час за місяць</th>
+						</tr>
+						<tr>
+							<td>Біг</td>
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+						</tr>
+						<tr>
+							<td>Велосипед</td>
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+						</tr>
+						<tr>
+							<td>Плавання</td>
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+						</tr>
+						<tr>
+							<td>Йога</td>
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+						</tr>
+						<tr>
+							<td>Ходьба</td>
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+						</tr>
+						<tr>
+							<td>Тенніс</td>
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+						</tr>
+						<tr>
+							<td>Загальний час</td>
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+							<td>00 год 00 хв</td> <!-- Для прикладу -->
+						</tr>
+				</table>
+			</div>
+			<div class="charts">
+				<div class="chart">
+					<canvas id="chart-week"></canvas>
+				</div>
+				<div class="chart">
+					<canvas id="chart-month"></canvas>
+				</div>
+			</div>
+			<div class="stat-text-container">
+				<h3>Ти молодець!</h3>
+				<h3>У цьому місяці  ти превершив себе на ...%.</h3>
+				<h3>У попередньому місяці ти займався ... годин.</h3>
+			</div>
+		</div>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="stat_page.js"></script>
+</body>
+</html>
